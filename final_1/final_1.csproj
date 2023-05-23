@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E191F9D3-30FF-4B66-8B73-0FD6A721B5F8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>final_1</RootNamespace>
+    <AssemblyName>final_1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddGame.Designer.cs">
+      <DependentUpon>AddGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddVendor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddVendor.Designer.cs">
+      <DependentUpon>AddVendor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPage.Designer.cs">
+      <DependentUpon>AdminPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client.Designer.cs">
+      <DependentUpon>Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientPage.Designer.cs">
+      <DependentUpon>ClientPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameRentalDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GameRentalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GameRentalDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GameRentalDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rank.Designer.cs">
+      <DependentUpon>Rank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RentGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RentGame.Designer.cs">
+      <DependentUpon>RentGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReturnGame.Designer.cs">
+      <DependentUpon>ReturnGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignAdmin.Designer.cs">
+      <DependentUpon>SignAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignClient.Designer.cs">
+      <DependentUpon>SignClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpDataGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpDataGame.Designer.cs">
+      <DependentUpon>UpDataGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpDateAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpDateAdmin.Designer.cs">
+      <DependentUpon>UpDateAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateClient.Designer.cs">
+      <DependentUpon>UpdateClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateGame.Designer.cs">
+      <DependentUpon>UpdateGame.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddGame.resx">
+      <DependentUpon>AddGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddVendor.resx">
+      <DependentUpon>AddVendor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPage.resx">
+      <DependentUpon>AdminPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client.resx">
+      <DependentUpon>Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientPage.resx">
+      <DependentUpon>ClientPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Rank.resx">
+      <DependentUpon>Rank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RentGame.resx">
+      <DependentUpon>RentGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReturnGame.resx">
+      <DependentUpon>ReturnGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignAdmin.resx">
+      <DependentUpon>SignAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignClient.resx">
+      <DependentUpon>SignClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpDataGame.resx">
+      <DependentUpon>UpDataGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpDateAdmin.resx">
+      <DependentUpon>UpDateAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateClient.resx">
+      <DependentUpon>UpdateClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateGame.resx">
+      <DependentUpon>UpdateGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="GameRentalDataSet.xsc">
+      <DependentUpon>GameRentalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GameRentalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GameRentalDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GameRentalDataSet.xss">
+      <DependentUpon>GameRentalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GameRentalDataSet1.xsc">
+      <DependentUpon>GameRentalDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="GameRentalDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GameRentalDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GameRentalDataSet1.xss">
+      <DependentUpon>GameRentalDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

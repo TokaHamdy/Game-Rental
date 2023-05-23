@@ -1,0 +1,52 @@
+D:\final_1\final_1\bin\Debug\final_1.exe.config
+D:\final_1\final_1\bin\Debug\final_1.exe
+D:\final_1\final_1\bin\Debug\final_1.pdb
+D:\final_1\final_1\obj\Debug\final_1.csproj.AssemblyReference.cache
+D:\final_1\final_1\obj\Debug\final_1.csproj.SuggestedBindingRedirects.cache
+D:\final_1\final_1\obj\Debug\final_1.AddGame.resources
+D:\final_1\final_1\obj\Debug\final_1.AddVendor.resources
+D:\final_1\final_1\obj\Debug\final_1.Admin.resources
+D:\final_1\final_1\obj\Debug\final_1.AdminPage.resources
+D:\final_1\final_1\obj\Debug\final_1.Client.resources
+D:\final_1\final_1\obj\Debug\final_1.Form1.resources
+D:\final_1\final_1\obj\Debug\final_1.Properties.Resources.resources
+D:\final_1\final_1\obj\Debug\final_1.SignAdmin.resources
+D:\final_1\final_1\obj\Debug\final_1.UpDataGame.resources
+D:\final_1\final_1\obj\Debug\final_1.UpDateAdmin.resources
+D:\final_1\final_1\obj\Debug\final_1.UpdateGame.resources
+D:\final_1\final_1\obj\Debug\final_1.csproj.GenerateResource.cache
+D:\final_1\final_1\obj\Debug\final_1.csproj.CoreCompileInputs.cache
+D:\final_1\final_1\obj\Debug\final_1.exe
+D:\final_1\final_1\obj\Debug\final_1.pdb
+D:\final_1\final_1\obj\Debug\final_1.ClientPage.resources
+D:\final_1\final_1\obj\Debug\final_1.SignClient.resources
+D:\final_1\final_1\obj\Debug\final_1.UpdateClient.resources
+D:\final_1\final_1\obj\Debug\final_1.RentGame.resources
+D:\final_1\final_1\obj\Debug\final_1.ReturnGame.resources
+D:\final_1\final_1\obj\Debug\final_1.Rank.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\bin\Debug\final_1.exe.config
+C:\Users\hassa\Downloads\New folder\final_1\final_1\bin\Debug\final_1.exe
+C:\Users\hassa\Downloads\New folder\final_1\final_1\bin\Debug\final_1.pdb
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.csproj.AssemblyReference.cache
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.AddGame.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.AddVendor.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.Admin.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.AdminPage.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.Client.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.ClientPage.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.Form1.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.Properties.Resources.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.Rank.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.RentGame.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.ReturnGame.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.SignAdmin.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.SignClient.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.UpDataGame.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.UpDateAdmin.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.UpdateClient.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.UpdateGame.resources
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.csproj.GenerateResource.cache
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.csproj.CoreCompileInputs.cache
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.exe
+C:\Users\hassa\Downloads\New folder\final_1\final_1\obj\Debug\final_1.pdb
